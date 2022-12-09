@@ -1,0 +1,39 @@
+.main-cover {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding: 100px;
+    align-items: center;
+}
+
+.cover-info {
+    font-family: lato;
+    color: #1C2B35;
+
+
+}
+
+.cover-info h1 {
+    margin-bottom: 0px;
+}
+
+.cover-info p {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 18px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #FF9900;
+
+}
+
+.btn:hover {
+    color: rgb(228, 236, 244);
+    transition: 0.2s;
+    background-color: #1C2B35;
+}
