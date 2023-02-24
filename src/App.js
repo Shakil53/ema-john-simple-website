@@ -1,15 +1,23 @@
 
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Cover from './components/Cover/Cover';
-import Header from './components/Header/Header';
-import Shop from './components/Shop/Shop';
+import Main from './Layout/Main';
+
+
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main></Main>
+    }
+  ])
+
   return (
     <div>
-      <Header></Header>
-      <Cover></Cover>
-      <Shop></Shop>
+
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
